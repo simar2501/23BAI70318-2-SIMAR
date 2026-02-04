@@ -1,12 +1,6 @@
 import { AppBar, Toolbar, Typography, Button, Box } from '@mui/material'
 
-function Navbar(){
-const scrollTo=id=>{
-const el=document.getElementById(id)
-const y=el.getBoundingClientRect().top+window.pageYOffset-90
-window.scrollTo({top:y,behavior:'smooth'})
-}
-
+function Navbar({ setSection }){
 return(
 <AppBar
 position="fixed"
@@ -25,16 +19,16 @@ Simar.dev
 </Typography>
 
 <Box sx={{display:'flex',gap:2}}>
-<Button sx={{color:'#f8f9f5'}} onClick={()=>scrollTo('about')}>
+<Button sx={{color:'#f8f9f5'}} onClick={()=>setSection('about')}>
 About
 </Button>
-<Button sx={{color:'#f8f9f5'}} onClick={()=>scrollTo('projects')}>
+<Button sx={{color:'#f8f9f5'}} onClick={()=>setSection('projects')}>
 Projects
 </Button>
 <Button
 variant="contained"
 sx={{background:'#f8f9f5',color:'#1f3a2a'}}
-onClick={()=>scrollTo('contact')}
+onClick={()=>setSection('contact')}
 >
 Contact
 </Button>

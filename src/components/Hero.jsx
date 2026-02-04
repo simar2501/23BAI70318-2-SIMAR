@@ -1,15 +1,8 @@
 import { Grid, Typography, Stack, Button, Box } from '@mui/material'
 
-function Hero(){
+function Hero({ setSection }){
 return(
-<Box
-sx={{
-minHeight:'100vh',
-display:'flex',
-alignItems:'center',
-pt:10 /* offset for fixed navbar */
-}}
->
+<Box sx={{display:'flex',alignItems:'center',pt:6,pb:6}}>
 <Grid container spacing={6} alignItems="center">
 <Grid item xs={12} md={5}>
 <Box
@@ -37,7 +30,7 @@ Final year CSE student specializing in AI/ML, focused on clean UI systems and mo
 <Button
 variant="contained"
 sx={{background:'#1f3a2a',color:'#f8f9f5',width:'fit-content'}}
-onClick={()=>document.getElementById('projects').scrollIntoView({behavior:'smooth'})}
+onClick={()=>setSection('projects')}
 >
 View My Work
 </Button>
