@@ -96,42 +96,37 @@ This structure keeps the code modular, readable, and easy to maintain.
 
 ---
 
-## 🚀 Installation & Setup
+# Overview 
 
-### Step 1: Create React App using Vite
-```bash
-npm create vite@latest
-cd experiment-2-ui
-npm install
-npm install @mui/material @emotion/react @emotion/styled
-Step 4: Run the Application
-npm run dev
-🌐 Deployment
+This project is developed as part of **Experiment 2** for the **Full Stack Development** course. The main objective of this experiment was to design and develop a **modern, clean, and professional user interface** using a UI component library and to understand how real-world web applications are structured.
 
-The project is deployed using Vercel following the naming convention provided in the experiment guidelines.
+For this experiment, I used **React** as the frontend framework and **Material UI (MUI)** as the UI component library. I started the project by creating a React application using **Vite**, which helped me understand a faster and more efficient project setup compared to traditional methods.
 
-Deployment format:
+After setting up the project, I focused on creating a proper **folder structure**. The application was divided into multiple components such as **Navbar, Hero, About, Projects, and Contact**. This component-based approach helped in keeping the code clean, modular, and easy to manage. Each section of the website is handled by a separate component, which improves readability and reusability of the code.
 
-{uid}-{experiment-part}-{name}.vercel.app
-📚 Learning Outcomes
+The design of the website follows a **professional green and neutral color theme**. Special care was taken to avoid random or flashy colors so that the UI looks clean and suitable for real-world usage. The layout is inspired by modern developer portfolio and landing page designs.
 
-Through this experiment, I learned:
+When the website loads, only the **Hero section** is visible to the user. This section contains the introduction (“Hello, I’m Simar”) and acts as the main landing section of the webpage. The About, Projects, and Contact sections are not shown initially. These sections are displayed dynamically based on user interaction.
 
-How to structure a React project properly
+A **navigation bar** is provided at the top of the page which allows the user to switch between different sections. When a navigation button is clicked, the previously visible section is hidden and the selected section appears with a **smooth fade-in animation**. This improves the overall user experience and makes the transitions feel smooth and professional. The Hero section always remains visible so that the user never loses context of the webpage.
 
-How to design component-based UIs
+The **Projects section** is designed using a card-based layout with Material UI components. Each project card follows the same design style to maintain consistency. This section demonstrates how reusable UI components can be used to present information in a structured and visually appealing manner.
 
-Effective use of Material UI components
+The website is fully **responsive** and adapts well to different screen sizes. Proper spacing, typography, and alignment have been maintained throughout the application to ensure a clean and readable layout.
 
-Importance of UI consistency and color harmony
+Through this experiment, I gained hands-on experience in:
+- Creating a React application using Vite  
+- Using Material UI components effectively  
+- Structuring a React project in a modular way  
+- Managing UI state for dynamic content  
+- Implementing smooth UI transitions and animations  
+- Applying basic UI/UX design principles  
 
-How to manage dynamic UI states in React
+The project is deployed using **Vercel**, following the naming convention provided in the experiment guidelines.
 
-Basics of deploying a React application
+Overall, this experiment helped me understand how modern web interfaces are designed and implemented using React and UI component libraries. It also improved my confidence in building professional-looking frontend applications.
 
-✅ Conclusion
+Experiment 2 has been completed successfully.
 
-This experiment helped me gain practical experience in designing modern and professional web interfaces using React and Material UI.
-The project follows real-world UI standards and demonstrates the use of component-based development effectively.
 
 ---
