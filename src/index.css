@@ -1,0 +1,29 @@
+*{margin:0;padding:0;box-sizing:border-box}
+
+html,body,#root{
+width:100%;
+height:100%;
+font-family:Inter,system-ui,Arial,sans-serif;
+background:
+repeating-linear-gradient(
+90deg,
+#0f2a1d 0%,
+#1f3a2a 14%,
+#2f6b46 28%,
+#1f3a2a 42%,
+#0f2a1d 56%
+);
+scroll-behavior:smooth;
+}
+
+/* Fade on scroll */
+.section{
+opacity:0;
+transform:translateY(32px);
+transition:opacity .6s ease,transform .6s ease;
+}
+
+.section.visible{
+opacity:1;
+transform:none;
+}
