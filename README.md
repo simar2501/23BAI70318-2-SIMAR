@@ -1,16 +1,39 @@
-# React + Vite
+# Experiment 2 – Modern UI Web Page  
+**Course:** Full Stack Development  
+**Student Name:** Simar  
+**UID:** 23BAI70318  
+**Experiment:** 2  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 📌 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a modern, responsive, and visually clean single-page web application built using **React** and **Material UI (MUI)**.  
+The objective of this experiment is to understand **component-based UI design**, proper **folder structuring in React**, and the application of **modern UI/UX principles**.
 
-## React Compiler
+The webpage is designed to look professional and real-world ready, similar to modern portfolio or landing pages used by developers and startups.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🎯 Objective of the Experiment
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- To learn component-based UI development using React  
+- To understand and implement proper folder structure in a React project  
+- To design a clean, modern, and responsive user interface  
+- To apply professional UI/UX design principles  
+- To use a UI component library (Material UI) effectively  
+
+---
+
+## 🛠️ Technologies Used
+
+- **React (Vite)**
+- **Material UI (MUI)**
+- **JavaScript (ES6)**
+- **CSS**
+- **Vercel** (for deployment)
+
+---
+
+## 📁 Folder Structure
+
